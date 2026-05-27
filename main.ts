@@ -42,7 +42,7 @@ function setUpTileMap() {
     switch (currentLevel) {
         case 1:
             scene.setBackgroundColor(12)
-            tiles.setCurrentTilemap(tilemap`level1`)
+            tiles.setCurrentTilemap(tilemap`level3`)
             break
         case 2:
             scene.setBackgroundColor(15)
