@@ -5,6 +5,7 @@ let invincibilityPeriod = 500
 let currentLevel = 1
 let startTime = 0
 
+
 namespace SpriteKind {
     export const Skeleton = SpriteKind.create()
     export const Spike = SpriteKind.create()
