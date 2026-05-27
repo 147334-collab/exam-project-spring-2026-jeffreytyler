@@ -18,6 +18,7 @@ function startGame() {
     setUpTileMap()
     setUpEnemies()
     setUpStory()
+    console.log('help')
 }
 
 function setUpPlayer() {
