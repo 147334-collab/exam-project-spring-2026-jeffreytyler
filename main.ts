@@ -4,6 +4,7 @@ let hasPowerUp = false
 let invincibilityPeriod = 500
 let currentLevel = 1
 let startTime = 0
+//test
 
 namespace SpriteKind {
     export const Skeleton = SpriteKind.create()
