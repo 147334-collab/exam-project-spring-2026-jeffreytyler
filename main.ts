@@ -4,7 +4,6 @@ let hasPowerUp = false
 let invincibilityPeriod = 500
 let currentLevel = 1
 let startTime = 0
-//testing
 
 namespace SpriteKind {
     export const Skeleton = SpriteKind.create()
@@ -18,7 +17,6 @@ function startGame() {
     setUpTileMap()
     setUpEnemies()
     setUpStory()
-    console.log('help')
 }
 
 function setUpPlayer() {
