@@ -42,6 +42,7 @@ function setUpTileMap() {
     switch (currentLevel) {
         case 1:
             scene.setBackgroundColor(12)
+            multilights.toggleLighting(true)
             tiles.setCurrentTilemap(tilemap`level3`)
             break
         case 2:
