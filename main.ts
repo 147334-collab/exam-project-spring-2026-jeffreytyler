@@ -18,6 +18,7 @@ function startGame() {
     setUpTileMap()
     setUpEnemies()
     setUpStory()
+    music.play(music.stringPlayable("music.play(music.createSong(hex`00780004080100`), music.PlaybackMode.UntilDone)", 120), music.PlaybackMode.UntilDone)
 }
 
 function setUpPlayer() {
