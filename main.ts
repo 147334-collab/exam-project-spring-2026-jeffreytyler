@@ -1,4 +1,4 @@
-let player: Sprite = null
+ let player: Sprite = null
 let isFacingLeft = false
 let hasPowerUp = false
 let invincibilityPeriod = 500
@@ -293,7 +293,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (currentLevel > 1 && info.score() > 0 && hasPowerUp) {
+    if (currentLevel > 0 && info.score() > 0 && hasPowerUp) {
         info.changeScoreBy(-1)
         if(isFacingLeft){
             let projectile = sprites.createProjectileFromSprite(img`
