@@ -124,6 +124,12 @@
         "tilemapTile": true,
         "displayName": "myTile3"
     },
+    "tile21": {
+        "data": "hwQQABAAAAD//////////09ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPT//////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile4"
+    },
     "test_level1": {
         "id": "test_level1",
         "mimeType": "application/mkcd-tilemap",
@@ -216,7 +222,8 @@
             "sprites.dungeon.collectibleRedCrystal",
             "myTiles.tile9",
             "myTiles.tile19",
-            "myTiles.tile20"
+            "myTiles.tile20",
+            "myTiles.tile21"
         ],
         "displayName": "level1"
     },

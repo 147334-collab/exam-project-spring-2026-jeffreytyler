@@ -42,6 +42,8 @@ namespace myTiles {
     export const tile19 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile20 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile21 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -152,7 +154,7 @@ namespace myTiles {
 ....2.......................................................
 ............................................................
 ............................................................
-`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorDark2,sprites.dungeon.floorDark1,myTiles.tile1,sprites.dungeon.darkGroundNorthWest1,myTiles.tile2,myTiles.tile5,sprites.dungeon.floorLight3,sprites.dungeon.floorLightMoss,myTiles.tile6,sprites.dungeon.floorDarkDiamond,myTiles.tile4,myTiles.tile7,sprites.dungeon.floorDark0,myTiles.tile8,sprites.dungeon.collectibleRedCrystal,myTiles.tile9,myTiles.tile19,myTiles.tile20], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorDark2,sprites.dungeon.floorDark1,myTiles.tile1,sprites.dungeon.darkGroundNorthWest1,myTiles.tile2,myTiles.tile5,sprites.dungeon.floorLight3,sprites.dungeon.floorLightMoss,myTiles.tile6,sprites.dungeon.floorDarkDiamond,myTiles.tile4,myTiles.tile7,sprites.dungeon.floorDark0,myTiles.tile8,sprites.dungeon.collectibleRedCrystal,myTiles.tile9,myTiles.tile19,myTiles.tile20,myTiles.tile21], TileScale.Sixteen);
         }
         return null;
     })
@@ -200,6 +202,8 @@ namespace myTiles {
             case "tile19":return tile19;
             case "myTile3":
             case "tile20":return tile20;
+            case "myTile4":
+            case "tile21":return tile21;
         }
         return null;
     })
