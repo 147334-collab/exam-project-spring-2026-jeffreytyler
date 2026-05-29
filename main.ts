@@ -32,6 +32,7 @@ function setUpPlayer() {
 function setUpEnemies() {
     runSpawner(assets.tile`skeleton_spawn`, assets.image`skeleton`, SpriteKind.Skeleton)
     runSpawner(assets.tile`spike_spawn`, assets.image`spike`, SpriteKind.Spike)
+    runSpawner(assets.tile`spike_spawn0`, assets.image`spike0`,SpriteKind.Spike)
     runSpawner(assets.tile`crusher_spawn`, assets.image`crusher_trap`, SpriteKind.Crusher)
     //TODO:  Add a runSpawner for the other enemy type here
 
